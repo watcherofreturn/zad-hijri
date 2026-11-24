@@ -1,0 +1,40 @@
+name: Hijri date (Taqwim al-Sayegh)
+
+on:
+  schedule:
+    - cron: '0 19 * * *'   # 19:00 UTC = 9 pm Beirut (10 pm in summer)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Read every city now, whatever the day of the month'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hijri
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Read the Hijri date
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force && '1' || '' }}
+        run: node scripts/update.mjs
+      - name: Save
+        run: |
+          git config user.name 'zad-hijri bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add hijri.json
+          if git diff --cached --quiet; then echo 'nothing new'; exit 0; fi
+          git commit -m "Hijri date $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,472 @@
+[
+ {
+  "sid": 236,
+  "id": "beirut",
+  "en": "Beirut",
+  "ar": "بيروت",
+  "country": "Lebanon",
+  "lat": 33.8938,
+  "lng": 35.5018,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 2006,
+  "id": "tyre",
+  "en": "Tyre",
+  "ar": "صور",
+  "country": "Lebanon",
+  "lat": 33.2705,
+  "lng": 35.2038,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 1793,
+  "id": "sidon",
+  "en": "Sidon",
+  "ar": "صيدا",
+  "country": "Lebanon",
+  "lat": 33.5571,
+  "lng": 35.3729,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 1313,
+  "id": "nabatieh",
+  "en": "Nabatieh",
+  "ar": "النبطية",
+  "country": "Lebanon",
+  "lat": 33.3772,
+  "lng": 35.4836,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 277,
+  "id": "bintjbeil",
+  "en": "Bint Jbeil",
+  "ar": "بنت جبيل",
+  "country": "Lebanon",
+  "lat": 33.1194,
+  "lng": 35.4333,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 167,
+  "id": "baalbek",
+  "en": "Baalbek",
+  "ar": "بعلبك",
+  "country": "Lebanon",
+  "lat": 34.0047,
+  "lng": 36.211,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 758,
+  "id": "hermel",
+  "en": "Hermel",
+  "ar": "الهرمل",
+  "country": "Lebanon",
+  "lat": 34.3943,
+  "lng": 36.3846,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 2123,
+  "id": "zahle",
+  "en": "Zahle",
+  "ar": "زحلة",
+  "country": "Lebanon",
+  "lat": 33.8463,
+  "lng": 35.902,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 2220,
+  "id": "jbeil",
+  "en": "Byblos",
+  "ar": "جبيل",
+  "country": "Lebanon",
+  "lat": 34.123,
+  "lng": 35.6519,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 1977,
+  "id": "tripoli",
+  "en": "Tripoli",
+  "ar": "طرابلس",
+  "country": "Lebanon",
+  "lat": 34.4367,
+  "lng": 35.8497,
+  "tz": "Asia/Beirut"
+ },
+ {
+  "sid": 107,
+  "id": "najaf",
+  "en": "Najaf",
+  "ar": "النجف الأشرف",
+  "country": "Iraq",
+  "lat": 32.0259,
+  "lng": 44.3462,
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "sid": 888,
+  "id": "karbala",
+  "en": "Karbala",
+  "ar": "كربلاء المقدسة",
+  "country": "Iraq",
+  "lat": 32.616,
+  "lng": 44.0249,
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "sid": 2341,
+  "id": "baghdad",
+  "en": "Baghdad",
+  "ar": "بغداد",
+  "country": "Iraq",
+  "lat": 33.3152,
+  "lng": 44.3661,
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "sid": 2353,
+  "id": "samarra",
+  "en": "Samarra",
+  "ar": "سامراء",
+  "country": "Iraq",
+  "lat": 34.1983,
+  "lng": 43.8742,
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "sid": 2339,
+  "id": "basra",
+  "en": "Basra",
+  "ar": "البصرة",
+  "country": "Iraq",
+  "lat": 30.5085,
+  "lng": 47.7804,
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "sid": 487,
+  "id": "damascus",
+  "en": "Damascus",
+  "ar": "دمشق",
+  "country": "Syria",
+  "lat": 33.5138,
+  "lng": 36.2765,
+  "tz": "Asia/Damascus"
+ },
+ {
+  "sid": 1750,
+  "id": "zaynab",
+  "en": "Sayyida Zaynab",
+  "ar": "السيدة زينب",
+  "country": "Syria",
+  "lat": 33.4446,
+  "lng": 36.341,
+  "tz": "Asia/Damascus"
+ },
+ {
+  "sid": 1586,
+  "id": "qom",
+  "en": "Qom",
+  "ar": "قم المقدسة",
+  "country": "Iran",
+  "lat": 34.6416,
+  "lng": 50.8746,
+  "tz": "Asia/Tehran"
+ },
+ {
+  "sid": 1185,
+  "id": "mashhad",
+  "en": "Mashhad",
+  "ar": "مشهد المقدسة",
+  "country": "Iran",
+  "lat": 36.297,
+  "lng": 59.6062,
+  "tz": "Asia/Tehran"
+ },
+ {
+  "sid": 1925,
+  "id": "tehran",
+  "en": "Tehran",
+  "ar": "طهران",
+  "country": "Iran",
+  "lat": 35.6892,
+  "lng": 51.389,
+  "tz": "Asia/Tehran"
+ },
+ {
+  "sid": 1207,
+  "id": "mecca",
+  "en": "Mecca",
+  "ar": "مكة المكرمة",
+  "country": "Saudi Arabia",
+  "lat": 21.4225,
+  "lng": 39.8262,
+  "tz": "Asia/Riyadh"
+ },
+ {
+  "sid": 1112,
+  "id": "medina",
+  "en": "Medina",
+  "ar": "المدينة المنورة",
+  "country": "Saudi Arabia",
+  "lat": 24.4672,
+  "lng": 39.6024,
+  "tz": "Asia/Riyadh"
+ },
+ {
+  "sid": 1584,
+  "id": "qatif",
+  "en": "Qatif",
+  "ar": "القطيف",
+  "country": "Saudi Arabia",
+  "lat": 26.5196,
+  "lng": 50.0115,
+  "tz": "Asia/Riyadh"
+ },
+ {
+  "sid": 1147,
+  "id": "manama",
+  "en": "Manama",
+  "ar": "المنامة",
+  "country": "Bahrain",
+  "lat": 26.2285,
+  "lng": 50.586,
+  "tz": "Asia/Bahrain"
+ },
+ {
+  "sid": 1,
+  "id": "kuwait",
+  "en": "Kuwait City",
+  "ar": "الكويت",
+  "country": "Kuwait",
+  "lat": 29.3759,
+  "lng": 47.9774,
+  "tz": "Asia/Kuwait"
+ },
+ {
+  "sid": 553,
+  "id": "dubai",
+  "en": "Dubai",
+  "ar": "دبي",
+  "country": "UAE",
+  "lat": 25.2048,
+  "lng": 55.2708,
+  "tz": "Asia/Dubai"
+ },
+ {
+  "sid": 536,
+  "id": "doha",
+  "en": "Doha",
+  "ar": "الدوحة",
+  "country": "Qatar",
+  "lat": 25.2854,
+  "lng": 51.531,
+  "tz": "Asia/Qatar"
+ },
+ {
+  "sid": 1305,
+  "id": "muscat",
+  "en": "Muscat",
+  "ar": "مسقط",
+  "country": "Oman",
+  "lat": 23.588,
+  "lng": 58.3829,
+  "tz": "Asia/Muscat"
+ },
+ {
+  "sid": 2378,
+  "id": "amman",
+  "en": "Amman",
+  "ar": "عمّان",
+  "country": "Jordan",
+  "lat": 31.9454,
+  "lng": 35.9284,
+  "tz": "Asia/Amman"
+ },
+ {
+  "sid": 373,
+  "id": "cairo",
+  "en": "Cairo",
+  "ar": "القاهرة",
+  "country": "Egypt",
+  "lat": 30.0444,
+  "lng": 31.2357,
+  "tz": "Africa/Cairo"
+ },
+ {
+  "sid": 813,
+  "id": "istanbul",
+  "en": "Istanbul",
+  "ar": "إسطنبول",
+  "country": "Turkey",
+  "lat": 41.0082,
+  "lng": 28.9784,
+  "tz": "Europe/Istanbul"
+ },
+ {
+  "sid": 494,
+  "id": "daressalaam",
+  "en": "Dar es Salaam",
+  "ar": "دار السلام",
+  "country": "Tanzania",
+  "lat": -6.7924,
+  "lng": 39.2083,
+  "tz": "Africa/Dar_es_Salaam"
+ },
+ {
+  "sid": 13,
+  "id": "abidjan",
+  "en": "Abidjan",
+  "ar": "أبيدجان",
+  "country": "Ivory Coast",
+  "lat": 5.36,
+  "lng": -4.0083,
+  "tz": "Africa/Abidjan"
+ },
+ {
+  "sid": 484,
+  "id": "dakar",
+  "en": "Dakar",
+  "ar": "داكار",
+  "country": "Senegal",
+  "lat": 14.7167,
+  "lng": -17.4677,
+  "tz": "Africa/Dakar"
+ },
+ {
+  "sid": 1022,
+  "id": "lagos",
+  "en": "Lagos",
+  "ar": "لاغوس",
+  "country": "Nigeria",
+  "lat": 6.5244,
+  "lng": 3.3792,
+  "tz": "Africa/Lagos"
+ },
+ {
+  "sid": 2152,
+  "id": "london",
+  "en": "London",
+  "ar": "لندن",
+  "country": "UK",
+  "lat": 51.5074,
+  "lng": -0.1278,
+  "tz": "Europe/London"
+ },
+ {
+  "sid": 1468,
+  "id": "paris",
+  "en": "Paris",
+  "ar": "باريس",
+  "country": "France",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "tz": "Europe/Paris"
+ },
+ {
+  "sid": 260,
+  "id": "berlin",
+  "en": "Berlin",
+  "ar": "برلين",
+  "country": "Germany",
+  "lat": 52.52,
+  "lng": 13.405,
+  "tz": "Europe/Berlin"
+ },
+ {
+  "sid": 1846,
+  "id": "stockholm",
+  "en": "Stockholm",
+  "ar": "ستوكهولم",
+  "country": "Sweden",
+  "lat": 59.3293,
+  "lng": 18.0686,
+  "tz": "Europe/Stockholm"
+ },
+ {
+  "sid": 505,
+  "id": "dearborn",
+  "en": "Dearborn",
+  "ar": "ديربورن",
+  "country": "USA",
+  "lat": 42.3223,
+  "lng": -83.1763,
+  "tz": "America/Detroit"
+ },
+ {
+  "sid": 1354,
+  "id": "newyork",
+  "en": "New York",
+  "ar": "نيويورك",
+  "country": "USA",
+  "lat": 40.7128,
+  "lng": -74.006,
+  "tz": "America/New_York"
+ },
+ {
+  "sid": 1966,
+  "id": "toronto",
+  "en": "Toronto",
+  "ar": "تورنتو",
+  "country": "Canada",
+  "lat": 43.6532,
+  "lng": -79.3832,
+  "tz": "America/Toronto"
+ },
+ {
+  "sid": 1271,
+  "id": "montreal",
+  "en": "Montreal",
+  "ar": "مونتريال",
+  "country": "Canada",
+  "lat": 45.5017,
+  "lng": -73.5673,
+  "tz": "America/Toronto"
+ },
+ {
+  "sid": 1868,
+  "id": "sydney",
+  "en": "Sydney",
+  "ar": "سيدني",
+  "country": "Australia",
+  "lat": -33.8688,
+  "lng": 151.2093,
+  "tz": "Australia/Sydney"
+ },
+ {
+  "sid": 1216,
+  "id": "melbourne",
+  "en": "Melbourne",
+  "ar": "ملبورن",
+  "country": "Australia",
+  "lat": -37.8136,
+  "lng": 144.9631,
+  "tz": "Australia/Melbourne"
+ },
+ {
+  "sid": 883,
+  "id": "karachi",
+  "en": "Karachi",
+  "ar": "كراتشي",
+  "country": "Pakistan",
+  "lat": 24.8607,
+  "lng": 67.0011,
+  "tz": "Asia/Karachi"
+ },
+ {
+  "sid": 1096,
+  "id": "lucknow",
+  "en": "Lucknow",
+  "ar": "لكهنؤ",
+  "country": "India",
+  "lat": 26.8467,
+  "lng": 80.9462,
+  "tz": "Asia/Kolkata"
+ }
+]

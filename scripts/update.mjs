@@ -1,4 +1,4 @@
-// Reads the Hijri date of each city from Taqwim al-Sayegh and keeps the start of each Hijri month per city in hijri.json.
+// Reads the Hijri date of one city per country from Taqwim al-Sayegh (the month starts by the sighting in each country) and keeps the start of each Hijri month per city in hijri.json.
 // Run every evening (about 9 pm Beirut) by .github/workflows/update.yml. The site is read only around the change of month:
 // from the 28th of a month to the 2nd of the next one (or when a city has no known month yet). On other days nothing is read.
 // FORCE=1 reads every city whatever the day.
@@ -55,6 +55,8 @@ async function hijriOn(sid, date){   // the Hijri day Sayegh shows for this city
 }
 
 const data = load(); data.v = 1; data.cities = data.cities || {};
+for(const sid of Object.keys(data.cities)) if(!CITIES.some(c => String(c.sid) === sid)) delete data.cities[sid];   // one city per country: the others are no longer kept
+for(const c of CITIES){ const e = data.cities[c.sid]; if(e){ e.id = c.id; e.en = c.en; e.country = c.country; e.lat = c.lat; e.lng = c.lng; } }   // every run: the app matches the country
 const now = new Date().toISOString(), beirut = todayIn('Asia/Beirut');
 const need = FORCE || CITIES.some(c => { const t = dayOf(data.cities[c.sid], todayIn(c.tz)); return !t || t.d >= 28 || t.d <= 2; });
 console.log('today (Beirut):', beirut, need ? '— reading the site' : '— mid-month, nothing to read');
@@ -62,7 +64,7 @@ console.log('today (Beirut):', beirut, need ? '— reading the site' : '— mid-
 if(need){
   let ok = 0;
   for(const c of CITIES){
-    const e = data.cities[c.sid] || (data.cities[c.sid] = {m:{}}); e.id = c.id; e.en = c.en; e.lat = c.lat; e.lng = c.lng;
+    const e = data.cities[c.sid] || (data.cities[c.sid] = {m:{}}); e.id = c.id; e.en = c.en; e.country = c.country; e.lat = c.lat; e.lng = c.lng;
     const t0 = todayIn(c.tz);
     for(const date of [t0, addDays(t0, 1)]){   // today, and tomorrow: whether tomorrow is the 30th or the 1st
       const h = await hijriOn(c.sid, date); await sleep(1500);

@@ -10,96 +10,6 @@
   "tz": "Asia/Beirut"
  },
  {
-  "sid": 2006,
-  "id": "tyre",
-  "en": "Tyre",
-  "ar": "صور",
-  "country": "Lebanon",
-  "lat": 33.2705,
-  "lng": 35.2038,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 1793,
-  "id": "sidon",
-  "en": "Sidon",
-  "ar": "صيدا",
-  "country": "Lebanon",
-  "lat": 33.5571,
-  "lng": 35.3729,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 1313,
-  "id": "nabatieh",
-  "en": "Nabatieh",
-  "ar": "النبطية",
-  "country": "Lebanon",
-  "lat": 33.3772,
-  "lng": 35.4836,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 277,
-  "id": "bintjbeil",
-  "en": "Bint Jbeil",
-  "ar": "بنت جبيل",
-  "country": "Lebanon",
-  "lat": 33.1194,
-  "lng": 35.4333,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 167,
-  "id": "baalbek",
-  "en": "Baalbek",
-  "ar": "بعلبك",
-  "country": "Lebanon",
-  "lat": 34.0047,
-  "lng": 36.211,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 758,
-  "id": "hermel",
-  "en": "Hermel",
-  "ar": "الهرمل",
-  "country": "Lebanon",
-  "lat": 34.3943,
-  "lng": 36.3846,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 2123,
-  "id": "zahle",
-  "en": "Zahle",
-  "ar": "زحلة",
-  "country": "Lebanon",
-  "lat": 33.8463,
-  "lng": 35.902,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 2220,
-  "id": "jbeil",
-  "en": "Byblos",
-  "ar": "جبيل",
-  "country": "Lebanon",
-  "lat": 34.123,
-  "lng": 35.6519,
-  "tz": "Asia/Beirut"
- },
- {
-  "sid": 1977,
-  "id": "tripoli",
-  "en": "Tripoli",
-  "ar": "طرابلس",
-  "country": "Lebanon",
-  "lat": 34.4367,
-  "lng": 35.8497,
-  "tz": "Asia/Beirut"
- },
- {
   "sid": 107,
   "id": "najaf",
   "en": "Najaf",
@@ -108,56 +18,6 @@
   "lat": 32.0259,
   "lng": 44.3462,
   "tz": "Asia/Baghdad"
- },
- {
-  "sid": 888,
-  "id": "karbala",
-  "en": "Karbala",
-  "ar": "كربلاء المقدسة",
-  "country": "Iraq",
-  "lat": 32.616,
-  "lng": 44.0249,
-  "tz": "Asia/Baghdad"
- },
- {
-  "sid": 2341,
-  "id": "baghdad",
-  "en": "Baghdad",
-  "ar": "بغداد",
-  "country": "Iraq",
-  "lat": 33.3152,
-  "lng": 44.3661,
-  "tz": "Asia/Baghdad"
- },
- {
-  "sid": 2353,
-  "id": "samarra",
-  "en": "Samarra",
-  "ar": "سامراء",
-  "country": "Iraq",
-  "lat": 34.1983,
-  "lng": 43.8742,
-  "tz": "Asia/Baghdad"
- },
- {
-  "sid": 2339,
-  "id": "basra",
-  "en": "Basra",
-  "ar": "البصرة",
-  "country": "Iraq",
-  "lat": 30.5085,
-  "lng": 47.7804,
-  "tz": "Asia/Baghdad"
- },
- {
-  "sid": 487,
-  "id": "damascus",
-  "en": "Damascus",
-  "ar": "دمشق",
-  "country": "Syria",
-  "lat": 33.5138,
-  "lng": 36.2765,
-  "tz": "Asia/Damascus"
  },
  {
   "sid": 1750,
@@ -178,46 +38,6 @@
   "lat": 34.6416,
   "lng": 50.8746,
   "tz": "Asia/Tehran"
- },
- {
-  "sid": 1185,
-  "id": "mashhad",
-  "en": "Mashhad",
-  "ar": "مشهد المقدسة",
-  "country": "Iran",
-  "lat": 36.297,
-  "lng": 59.6062,
-  "tz": "Asia/Tehran"
- },
- {
-  "sid": 1925,
-  "id": "tehran",
-  "en": "Tehran",
-  "ar": "طهران",
-  "country": "Iran",
-  "lat": 35.6892,
-  "lng": 51.389,
-  "tz": "Asia/Tehran"
- },
- {
-  "sid": 1207,
-  "id": "mecca",
-  "en": "Mecca",
-  "ar": "مكة المكرمة",
-  "country": "Saudi Arabia",
-  "lat": 21.4225,
-  "lng": 39.8262,
-  "tz": "Asia/Riyadh"
- },
- {
-  "sid": 1112,
-  "id": "medina",
-  "en": "Medina",
-  "ar": "المدينة المنورة",
-  "country": "Saudi Arabia",
-  "lat": 24.4672,
-  "lng": 39.6024,
-  "tz": "Asia/Riyadh"
  },
  {
   "sid": 1584,
@@ -400,16 +220,6 @@
   "tz": "America/Detroit"
  },
  {
-  "sid": 1354,
-  "id": "newyork",
-  "en": "New York",
-  "ar": "نيويورك",
-  "country": "USA",
-  "lat": 40.7128,
-  "lng": -74.006,
-  "tz": "America/New_York"
- },
- {
   "sid": 1966,
   "id": "toronto",
   "en": "Toronto",
@@ -417,16 +227,6 @@
   "country": "Canada",
   "lat": 43.6532,
   "lng": -79.3832,
-  "tz": "America/Toronto"
- },
- {
-  "sid": 1271,
-  "id": "montreal",
-  "en": "Montreal",
-  "ar": "مونتريال",
-  "country": "Canada",
-  "lat": 45.5017,
-  "lng": -73.5673,
   "tz": "America/Toronto"
  },
  {
@@ -438,16 +238,6 @@
   "lat": -33.8688,
   "lng": 151.2093,
   "tz": "Australia/Sydney"
- },
- {
-  "sid": 1216,
-  "id": "melbourne",
-  "en": "Melbourne",
-  "ar": "ملبورن",
-  "country": "Australia",
-  "lat": -37.8136,
-  "lng": 144.9631,
-  "tz": "Australia/Melbourne"
  },
  {
   "sid": 883,

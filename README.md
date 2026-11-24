@@ -2,12 +2,13 @@
 
 The Hijri date for the **Zad al-Muntazirin** app, as published by **Taqwim al-Sayegh** for each city.
 
-- `cities.json`: the 47 cities of the app that are in the Sayegh calendar (`sid` = Sayegh city id).
+- `cities.json`: one city per country (26), from the app's cities that are in the Sayegh calendar (`sid` = Sayegh city id).
+  The app gives every city the date of its country's city.
 - `hijri.json`: the start (Gregorian date) of each Hijri month, per city:
 
 ```json
 {"v":1, "checked":"…", "read":"…",
- "cities":{"107":{"id":"najaf","en":"Najaf","lat":32.03,"lng":44.35,"at":"…","m":{"1448-6":"2026-11-11","1448-7":"2026-12-11"}}},
+ "cities":{"107":{"id":"najaf","en":"Najaf","country":"Iraq","lat":32.03,"lng":44.35,"at":"…","m":{"1448-6":"2026-11-11","1448-7":"2026-12-11"}}},
  "diff":{"1448-7":{"2026-12-10":["Beirut"],"2026-12-11":["Najaf","…"]}}}
 ```
 
